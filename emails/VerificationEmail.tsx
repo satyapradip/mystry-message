@@ -2,7 +2,7 @@
 // Verification Email Template
 // ============================================
 // This file creates the HTML email that gets sent to users when they sign up.
-// It uses @react-email/components which gives us ready-made email-friendly
+// It uses jsx-email which gives us ready-made email-friendly
 // components (regular HTML/CSS doesn't always work well in emails).
 //
 // Think of this like a regular React component, but it renders to an email instead of a webpage.
@@ -17,7 +17,7 @@ import {
   Section,  // A section of the email (like a <div>)
   Text,     // Regular paragraph text
   Button,   // A clickable button
-} from '@react-email/components';
+} from 'jsx-email';
 
 // Define what props (inputs) this email component expects
 interface VerificationEmailProps {
